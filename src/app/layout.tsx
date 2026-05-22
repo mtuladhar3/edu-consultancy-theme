@@ -1,11 +1,11 @@
 import "./globals.css";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import { Questrial } from "next/font/google";
 
 const questrial = Questrial({
   subsets: ["latin"],
   weight: "400",
-  variable: "--font-questrial", 
+  variable: "--font-questrial",
 });
 // export const metadata = {
 //   title: "EduPath | Education Consultancy",
@@ -15,9 +15,11 @@ const questrial = Questrial({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${questrial.variable} bg-brand-light text-slate-800 antialiased font-sans`}>
+      <body
+        className={`${questrial.variable} bg-brand-light text-slate-800 antialiased font-sans`}
+      >
         <Navbar />
-        
+
         <main>{children}</main>
       </body>
     </html>

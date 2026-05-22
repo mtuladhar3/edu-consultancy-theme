@@ -79,7 +79,7 @@ export default function Navbar() {
                 {/* Column 1 */}
                 <div className="flex flex-col space-y-3.5 text-[13px] font-semibold text-slate-700">
                   {["About One", "About Two", "About Three", "Academics One", "Academics Two", "Academics Three", "Admission"].map((item) => (
-                    <Link key={item} href="#" className="hover:text-[#a30000] hover:translate-x-1 transition-all duration-200">{item}</Link>
+                    <Link key={item} href="#" className="hover:text-primary hover:translate-x-1 transition-all duration-200">{item}</Link>
                   ))}
                 </div>
 

@@ -1,15 +1,14 @@
 @import "tailwindcss";
 
-@theme {
+:root {
   --color-edu-red: #a30000;
   --color-edu-dark-bg: #11161b;
   --color-edu-text-gray: #bcbcbc;
-  
+
   /* Keeping your previous theme colors just in case */
   --color-brand-blue: #0b3c5d;
   --color-brand-gold: #d9b310;
   --color-brand-light: #f5f7fa;
-
 
   --font-sans: var(--font-questrial);
 }
